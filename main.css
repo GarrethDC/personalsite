@@ -13,6 +13,12 @@
   color: white;
 }
 
+.page-footer{
+  background-color:lightblue;
+  border-color: orange;
+  color: white;
+ }
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
