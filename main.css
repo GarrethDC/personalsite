@@ -53,6 +53,24 @@ h4{
  }
 
 /*---Resume Specific --*/
+.card-subtitle{
+  font-size: 16px;
+  font-weight: bold;
+  color: Salmon;
+}
+
+.card{
+  background-color: #f8f9fa;
+  padding-top: 2rem;
+}
+
+.fa-spotify{
+  color: green;
+  font-size: 10em;
+  text-align: center;
+}
+
+/*---Resume Specific --*/
 p.rescontact{
   display: block;
   margin-top: 0em;
