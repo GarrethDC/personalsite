@@ -52,7 +52,7 @@ h4{
   color: white;
  }
 
-/*---Resume Specific --*/
+/*---Projects Page Specific --*/
 .card-subtitle{
   font-size: 16px;
   font-weight: bold;
@@ -65,12 +65,41 @@ h4{
 }
 
 .fa-spotify{
-  color: green;
+  color: #1DB954;
+}
+
+.fa-reddit{
+  color: #FF5700;
+}
+
+.fa-headphones{
+  color: #000000;
+}
+
+.fa-windows{
+  color: #00a2ed;
+}
+
+
+#solidworks-card{
+  height: 10em;
+  width: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-bootstrap{
+  color: #553C7B;
+}
+
+.fa-spotify, .fa-reddit, .fa-headphones, .fa-windows, .fa-bootstrap{
   font-size: 10em;
   text-align: center;
 }
 
-/*---Resume Specific --*/
+
+/*---Resume Page Specific --*/
 p.rescontact{
   display: block;
   margin-top: 0em;
