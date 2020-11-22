@@ -19,7 +19,7 @@ a{
 }
 
 a:hover {
-  color: #CBEEF3;
+  color: #9BC6CF;
 }
 
 a:active {
@@ -171,6 +171,7 @@ p.dates{
 
 .rescontact a{
   color: #4C818F;
+  text-decoration: underline;
 }
 
 hr.resume{
@@ -188,6 +189,7 @@ hr.skills{
   width: 50%;
   padding: 0px;
 }
+
 .resume-header{
   background: #9BC6CF;
   margin: 10px 0px 20px;
