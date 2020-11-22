@@ -18,6 +18,14 @@ a{
   color: #9BC6CF;
 }
 
+a:hover {
+  color: #CBEEF3;
+}
+
+a:active {
+  color: #4C818F;
+}
+
 .shadow{
   text-shadow: 1px 1px 3px #000000;
 }
@@ -152,6 +160,19 @@ p.rescontact{
   text-align:right;
 }
 
+p.skills{
+  text-align: center;
+}
+
+p.dates{
+  text-align: right;
+  color: #4C818F;
+}
+
+.rescontact a{
+  color: #4C818F;
+}
+
 hr.resume{
   border-top: 2px solid #CBEEF3;
   width: 50%;
@@ -162,6 +183,20 @@ hr.skills{
   width: 75%;
 }
 
+.alert{
+  margin: auto;
+  width: 50%;
+  padding: 0px;
+}
+.resume-header{
+  background: #9BC6CF;
+  margin: 10px 0px 20px;
+}
+
+.resume-footer{
+  background: #9BC6CF;
+  margin: 0px;
+}
 .company{
   font-weight: bold;
   color: #4C818F;
@@ -171,14 +206,6 @@ hr.skills{
   font-style: italic;
 }
 
-p.skills{
-  text-align: center;
-}
-
-p.dates{
-  text-align: right;
-  color: #4C818F;
-}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
