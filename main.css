@@ -11,14 +11,27 @@ p {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
+  text-align: justify;
 }
 
 a{
   color: #9BC6CF;
 }
 
+.shadow{
+  text-shadow: 1px 1px 3px #000000;
+}
+
 h4{
-  text-align: center
+  text-align: center;
+}
+
+h2{
+  font-weight: bold;
+}
+
+h2, h4{
+  color: #4C818F;
 }
 
 .site-logo{
@@ -53,10 +66,15 @@ h4{
 
 .page-footer a{
   color: white;
+  text-shadow: 1px 1px 3px #000000;
  }
 
  .page-footer h5{
   color: #4C818F;
+ }
+
+ .fa-envelope, .fa-twitter, .fa-github, .fa-linkedin{
+  text-shadow: 1px 1px 2px #000000;
  }
 
 /*---About page --*/
@@ -135,22 +153,31 @@ p.rescontact{
 }
 
 hr.resume{
-  border-top: 2px solid #b4b4b4;
+  border-top: 2px solid #CBEEF3;
   width: 50%;
 }
 
 hr.skills{
-  border-top: 2px solid #b4b4b4;
+  border-top: 2px solid #CBEEF3;
   width: 75%;
 }
 
 .company{
   font-weight: bold;
-  color: blue;
+  color: #4C818F;
 }
 
 .compdescription{
   font-style: italic;
+}
+
+p.skills{
+  text-align: center;
+}
+
+p.dates{
+  text-align: right;
+  color: #4C818F;
 }
 
 /*---Media Queries --*/
