@@ -208,6 +208,17 @@ hr.skills{
   font-style: italic;
 }
 
+p.education{
+  padding: 0px 0px 20px 0px;
+  margin: 0px;
+}
+
+h5.education{
+  color: #4C818F;
+  padding: 0px;
+  margin: 0px;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
